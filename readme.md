@@ -30,6 +30,7 @@ Let's write the boilerplate for an express server:
 - First, import `express` by requiring it at the top of `index.js` with:
 	```js
 	const express = require('express');
+	```
 
 - Go ahead and define a `PORT` constant variable: 
 	```js
@@ -60,7 +61,6 @@ app.get('/hello', (req, res) => {
 })
 ```
 
-___
 #### `/greet/:name`
 `GET` `/greet/:name` should return a greeting with the supplied name, e.g., `'Why hello there, <name>!'`
 
