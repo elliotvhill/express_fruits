@@ -58,8 +58,7 @@ app.get('/hello', (req, res) => {
   res.send('hello world!')
 
 })
-
-</details>
+```
 
 ___
 #### `/greet/:name`
@@ -98,15 +97,12 @@ app.get('/fruits/:name', (req, res) => {
   // HINT - you can use a higher-order array method 
 })
 ```
+#### /veggies
 
+With a working route to show an array of fruits, and an individual fruit, lets take this same concept and make another route that returns an array of vegetables, then try to create a route for the individual ones
 
 
 ___
-## Requirements
-- The project must be initialized with `npm init` and set up as an express app.
-- All routes should be working on http://localhost:3001/
-- All routes must send the proper data specified for the route using express's request and response objects
-
 
 ## Bonus 
 
