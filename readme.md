@@ -97,9 +97,11 @@ app.get('/fruits/:name', (req, res) => {
   // HINT - you can use a higher-order array method 
 })
 ```
-#### /veggies
+#### `/veggies`
 
 With a working route to show an array of fruits, and an individual fruit, lets take this same concept and make another route that returns an array of vegetables, then try to create a route for the individual ones
+
+Note : Tomato, pepper, avocado, and cucumber are all fruits, not vegetables. If you put any of these, or other seed-bearing produce into your veggies link, you will not receive credit for this assignment. I'm sorry, but your instructor is just kind of a jerk sometimes
 
 
 ___
