@@ -78,7 +78,7 @@ Remember that you can create variables above your response
 ### Fruit Routes
 #### `/fruits`
 
-`GET` `/fruits` should return an array with all the fruits.
+`GET` `/fruits` should return an array of fruits that you create.
 
 Let's add a route that returns an array of fruits when we access the route
 
