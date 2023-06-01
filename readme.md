@@ -143,9 +143,6 @@ app.get('/fruits/sort', (req, res) => {
 
 </details>
 
-## Submission Guidelines
-- Pull Request must be submitted utilizing these guidelines: [PR Guidelines](https://github.com/SEI-R-2-22/template_pull_request)
-
 ## Resources
 - [Additional Reading on req.params](https://coursework.vschool.io/express-params-and-query/)
 
